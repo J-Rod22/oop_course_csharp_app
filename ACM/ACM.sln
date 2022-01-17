@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{2691CF3B-6B25-4E32-AE8F-528D3D2774F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C723E26-BA9F-4C01-998E-9CBD7FA76C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "Tests\ACM.BLTest\ACM.BLTest.csproj", "{8333091E-B59F-46E9-AAFD-7BD7C8F8627C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{2691CF3B-6B25-4E32-AE8F-528D3D2774F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2691CF3B-6B25-4E32-AE8F-528D3D2774F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2691CF3B-6B25-4E32-AE8F-528D3D2774F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8333091E-B59F-46E9-AAFD-7BD7C8F8627C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8333091E-B59F-46E9-AAFD-7BD7C8F8627C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8333091E-B59F-46E9-AAFD-7BD7C8F8627C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8333091E-B59F-46E9-AAFD-7BD7C8F8627C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8333091E-B59F-46E9-AAFD-7BD7C8F8627C} = {9C723E26-BA9F-4C01-998E-9CBD7FA76C5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A8993A9-7C77-40A0-965E-576C3AE17FE1}

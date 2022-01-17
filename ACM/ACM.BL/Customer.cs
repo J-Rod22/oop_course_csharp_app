@@ -13,6 +13,6 @@ namespace ACM.BL
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
 
-        public string FullName => $"{FirstName} , {LastName}";
+        public string FullName => $"{LastName}, {FirstName}";
     }
 }
