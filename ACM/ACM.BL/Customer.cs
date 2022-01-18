@@ -15,7 +15,7 @@ namespace ACM.BL
 
         public Customer(int customerId)
         {
-            CustomerId = customerId;
+            CustomerID = customerId;
         }
 
         public int CustomerID { get; private set; }
