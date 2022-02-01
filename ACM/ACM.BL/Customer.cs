@@ -25,6 +25,7 @@ namespace ACM.BL
         public string EmailAddress { get; set; }
 
         public List<Address> AddressList { get; set; }
+        public int CustomerType { get; set; }
 
         public string FullName
         {
